@@ -46,8 +46,8 @@ nav ul {
 nav ul li{
     flex: 1 1 auto;
 }
+
 nav a {
-    color: navy;
     padding: 20px;
     text-decoration: none;
     font-size: 1rem;
