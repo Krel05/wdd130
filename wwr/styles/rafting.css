@@ -172,6 +172,10 @@ textarea {
     font-weight: bold;
 }
 
+.contact h1{
+    position: relative;
+}
+
 .mapform {
     display: flex;
     flex-direction: row;
@@ -194,28 +198,24 @@ button {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: left;
+    align-items:center;
 }
 
-.radios {
-    display: grid;
-    grid-template-columns: 3;
-    grid-template-rows: 3;
-    font-size: 1em;
+.purpose {
+    display: flex;
+    flex-direction: row;
     align-items: center;
 }
 
-.radios label{
-    grid-column: 3;
+.radios {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.radios input{
-    grid-column: 2;
-}
-
-.radios legend{
-    grid-column: 1;
-    grid-row: span 3;
+.radio-group{
+    display: flex;
+    flex-direction: row;
     align-items: center;
 }
 
@@ -223,4 +223,9 @@ button {
     display: flex;
     flex-direction: row;
     align-items: center;
+}
+
+.map {
+    width:400px;
+    height:fit-content;
 }

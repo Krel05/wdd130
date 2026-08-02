@@ -23,7 +23,7 @@
     </header>
     <main>
         <div class="contact">
-            <h2>White Water Rafting Company</h2>
+            <h1>White Water Rafting Company</h1>
             <p>123 Main River Street</p>
             <p>Kolob, California</p>
             <p>+1 999 999 9999</p>
@@ -31,7 +31,7 @@
         </div>
         <section class="mapform">
             <div class="map">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3169.0832616756725!2d-99.08708887268004!3d19.466096552631825!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1fbc4648b0ee7%3A0x61382b34e9618369!2sTemplo%20de%20la%20Ciudad%20de%20M%C3%A9xico!5e1!3m2!1ses!2smx!4v1785634187815!5m2!1ses!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3169.0832616756725!2d-99.08708887268004!3d19.466096552631825!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1fbc4648b0ee7%3A0x61382b34e9618369!2sTemplo%20de%20la%20Ciudad%20de%20M%C3%A9xico!5e1!3m2!1ses!2smx!4v1785634187815!5m2!1ses!2smx" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
             </div>
             <form>
                 <fieldset>
@@ -45,14 +45,22 @@
                         <input type="text" id="email" name="email" required>
                     </div>
                     
-                    <div class="radios">
-                        <legend>Message Purpose</legend>
-                        <input type="radio" id="General" name="purpose" required>
-                        <label for="General">General Inquiry</label>
-                        <input type="radio" id="Reservation" name="purpose" required>
-                        <label for="Reservation">Reservation Question</label>
-                        <input type="radio" id="Suggestion" name="purpose" required>
-                        <label for="Suggestion">Website Suggestion</label>
+                    <div class="purpose">
+                        <p>Message Purpose</p>
+                        <div class="radios">
+                            <div class="radio-group">
+                                <input type="radio" id="General" name="purpose" required>
+                                <label for="General">General Inquiry</label>
+                            </div>
+                            <div class="radio-group">
+                                <input type="radio" id="Reservation" name="purpose" required>
+                                <label for="Reservation">Reservation Question</label>
+                            </div>
+                            <div class="radio-group">
+                                <input type="radio" id="Suggestion" name="purpose" required>
+                                <label for="Suggestion">Website Suggestion</label>
+                            </div>
+                        </div>
                     </div>
                     <label for="message">Message</label>
                     <textarea id="message" name="message" rows="4" required></textarea>
