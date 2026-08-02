@@ -132,3 +132,95 @@ h1 {
     width: 85px;
     border: 1px solid #111111;
 }
+
+label {
+    margin-top: 1rem;
+    margin-right: 40px;
+    font-size: 1.1em;
+}
+
+fieldset {
+    border: none;
+    padding: 10px;
+    background-color: #fff;
+}
+
+input,
+select,
+textarea {
+    font-size: 1.25em;
+    margin: 5px 0;
+    padding: 5px;
+    width: 100%;
+}
+
+.employees{
+    background-color: var(--secondary-color);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.employees img {
+    width: 200px;
+    padding: 1em;
+}
+
+.contact {
+    text-align: center;
+    font-weight: bold;
+}
+
+.mapform {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button {
+    font-size: 1.25em;
+    padding: 10px 20px;
+    background-color: var(--primary-color);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.name-email {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: left;
+}
+
+.radios {
+    display: grid;
+    grid-template-columns: 3;
+    grid-template-rows: 3;
+    font-size: 1em;
+    align-items: center;
+}
+
+.radios label{
+    grid-column: 3;
+}
+
+.radios input{
+    grid-column: 2;
+}
+
+.radios legend{
+    grid-column: 1;
+    grid-row: span 3;
+    align-items: center;
+}
+
+.suscribe {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
